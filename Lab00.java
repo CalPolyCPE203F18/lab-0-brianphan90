@@ -4,8 +4,8 @@ public class Lab00
         int x = 5;
         String y = "hello";
         double z = 9.8;
-        System.out.println("x: " + x + " y: "+ y + " z: " + z);
-        //System.out.printf("x: %d " + "y: %s " + "z: %.1f%n", x, y, z);
+        //System.out.println("x: " + x + " y: "+ y + " z: " + z);
+        System.out.printf("x: %d " + "y: %s " + "z: %.1f%n", x, y, z);
 
         int[] nums = {3, 6, -1, 2};
         for (int i = 0; i < nums.length; i++)    //iterate though the array
